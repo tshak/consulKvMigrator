@@ -3,7 +3,7 @@ package main
 import "flag"
 import "fmt"
 import "os"
-import migrator "consulKvMigrator"
+import migrator "github.com/tshak/consulKvMigrator"
 import consul "github.com/hashicorp/consul/api"
 
 func main() {
